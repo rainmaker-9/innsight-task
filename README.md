@@ -7,6 +7,7 @@ Hello INNSight Team! I am Raviraj. This is the repository for task assigned to m
 Requirements:
 
 - Composer - https://getcomposer.org/download/
+- PHP in your PATH variable
 
 For PHP version 7.4 or higher is required, with the following extensions installed:
 
