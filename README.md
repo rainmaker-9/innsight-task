@@ -44,7 +44,7 @@ If you have installed Composer on your local machine:
 composer update
 ```
 
-Copy `env` to `.env` and tailor for your app, specifically the baseURL. Configure your database credentials in `app\Config\Database.php`
+Copy `env` to `.env` and tailor for your app, specifically the baseURL. Configure your database credentials either in `.env` file or in `app\Config\Database.php` file.
 
 After composer is finished installing required dependencies, run following command in same window:
 
@@ -52,4 +52,4 @@ After composer is finished installing required dependencies, run following comma
 php spark serve
 ```
 
-You can view your running app in your browser at your specified `baseURL` either in `.env` file or in `app\Config\App.php`
+You can view your running app in your browser at your specified `baseURL` either in `.env` file or in `app\Config\App.php` file.
