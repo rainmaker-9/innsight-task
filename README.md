@@ -20,9 +20,7 @@ Additionally, make sure that the following extensions are enabled in your PHP:
 - [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) to use MySQL
 
 ```xml
-
-    git clone https://github.com/rblethal/innsight-task.git innsight-task-app
-
+git clone https://github.com/rblethal/innsight-task.git innsight-task-app
 ```
 
 Import the MySQL Database Dump File (**innsight_task.sql**) using phpMyAdmin
@@ -34,9 +32,7 @@ Import the MySQL Database Dump File (**innsight_task.sql**) using phpMyAdmin
 After successful clone, open shell/command prompt in the cloned folder and run following command:
 
 ```xml
-
-    php composer.phar update
-
+php composer.phar update
 ```
 
 Copy `env` to `.env` and tailor for your app, specifically the baseURL
@@ -45,9 +41,7 @@ Configure your database credentials in `app\Config\Database.php`
 After composer is finished installing required dependencies, run following command in same window:
 
 ```xml
-
-    php spark serve
-
+php spark serve
 ```
 
 You can view your running app in your browser at your specified `baseURL` either in `.env` file or in `app\Config\App.php`
