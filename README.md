@@ -35,8 +35,7 @@ After successful clone, open shell/command prompt in the cloned folder and run f
 php composer.phar update
 ```
 
-Copy `env` to `.env` and tailor for your app, specifically the baseURL
-Configure your database credentials in `app\Config\Database.php`
+Copy `env` to `.env` and tailor for your app, specifically the baseURL. Configure your database credentials in `app\Config\Database.php`
 
 After composer is finished installing required dependencies, run following command in same window:
 
