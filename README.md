@@ -31,8 +31,16 @@ Import the MySQL Database Dump File (**innsight_task.sql**) using phpMyAdmin
 
 After successful clone, open shell/command prompt in the cloned folder and run following command:
 
+If you use Composer as a PHP Archive:
+
 ```xml
 php composer.phar update
+```
+
+If you have installed composer on your local machine:
+
+```xml
+composer update
 ```
 
 Copy `env` to `.env` and tailor for your app, specifically the baseURL. Configure your database credentials in `app\Config\Database.php`
