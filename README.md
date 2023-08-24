@@ -37,7 +37,7 @@ If you use Composer as a PHP Archive:
 php composer.phar update
 ```
 
-If you have installed composer on your local machine:
+If you have installed Composer on your local machine:
 
 ```xml
 composer update
