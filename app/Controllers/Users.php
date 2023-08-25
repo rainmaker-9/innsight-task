@@ -56,7 +56,7 @@ class Users extends BaseController
           return $this->response->setJSON(array('status' => false, 'message' => 'Email can have maximum 255 characters.'));
         } else if (!$this->validateStringLength($mobile, 10)) {
           return $this->response->setJSON(array('status' => false, 'message' => 'Mobile number must be 10 digits.'));
-        } else if (!$this->validateStringLength($gender, 1)) {
+        } else if (!$this->validateStringLength($gender, 1) && in_array($gender, GENDER_LIST)) {
           return $this->response->setJSON(array('status' => false, 'message' => 'Gender value is not valid.'));
         } else if ($this->validateStringLength($state, 255, '>')) {
           return $this->response->setJSON(array('status' => false, 'message' => 'State can have maximum 255 characters.'));

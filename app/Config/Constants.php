@@ -100,3 +100,5 @@ defined("INDIAN_STATE_LIST") || define("INDIAN_STATE_LIST", [
   'Maharashtra', 'Manipur', 'Meghalaya', 'Mizoram', 'Nagaland', 'Odisha', 'Puducherry', 'Punjab', 'Rajasthan', 'Sikkim',
   'Tamil Nadu', 'Telangana', 'Tripura', 'Uttarakhand', 'Uttar Pradesh', 'West Bengal'
 ]);
+
+defined("GENDER_LIST") || define("GENDER_LIST", ['M', 'F']);
