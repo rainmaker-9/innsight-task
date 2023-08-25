@@ -63,8 +63,8 @@
           </div>
           <div class="card-footer bg-transparent py-3">
             <?php
-            if (count($users) > 0) {
-              $pager->links();
+            if (count($users) > 10) {
+              echo $pager->links();
             }
             ?>
           </div>
